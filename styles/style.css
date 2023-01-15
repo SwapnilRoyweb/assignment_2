@@ -194,3 +194,30 @@ header .banner .description > p{
     justify-content: center;
     gap: 100px;
 }
+/* sponsors section */
+.sponser{
+    margin-top: 100px;
+    text-align: center;
+}
+.sponser > p{
+    margin-top: 10px;
+}
+.sponser > h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+.sponser .icon{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+/* footer */
+footer{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    background-color: #FFF4E7;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
