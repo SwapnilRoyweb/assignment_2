@@ -201,6 +201,7 @@ header .banner .description > p{
 }
 .sponser > p{
     margin-top: 10px;
+    color: #727272;
 }
 .sponser > h1{
     font-weight: 700;
@@ -215,9 +216,10 @@ header .banner .description > p{
 /* footer */
 footer{
     margin-top: 100px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     background-color: #FFF4E7;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    color: #727272;
 }
