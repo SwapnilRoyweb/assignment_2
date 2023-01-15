@@ -108,7 +108,7 @@ header .banner .description > p{
 .banner_2{
     margin-top: 100px;
     width: 1100px;
-    height: 1000px;
+    height: 750px;
 }
 .second-banner{
     display: flex;
@@ -126,6 +126,15 @@ header .banner .description > p{
 }
 .second-banner .details > p{
     margin-bottom: 20px;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+.second-banner .details .part > p{
+    margin-top: 10px;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
 }
 .second-banner .details .part{
     margin-bottom: 20px;
@@ -142,4 +151,46 @@ header .banner .description > p{
     position: relative;
     top: -70px;
     left: 530px;
-} 
+}
+/* facts section */
+.facts{
+    margin-top: 100px;
+}
+.facts > h1{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 45px;
+}
+.facts > p{
+    color:#727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+.fact{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #FF900E;
+    padding: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+.facts-option{
+    transition: transform 0.2s scale 0.2s;
+}
+.facts-option :hover{
+    transform:rotate(-10deg) scale(1.2);
+}
+.fact > p{
+    font-weight: 600;
+    font-size: 10px;
+    color:#727272;
+}
+.fact h3, img{
+    margin-bottom: 10px;
+}
+.facts .facts-option{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
