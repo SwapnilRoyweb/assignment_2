@@ -104,3 +104,42 @@ header .banner .description > p{
     color: white;
     border-radius: 5px;
 }
+/* 2nd banner section */
+.banner_2{
+    margin-top: 100px;
+    width: 1100px;
+    height: 1000px;
+}
+.second-banner{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.second-banner > img{
+    width: 500px;
+    height: 700px;
+}
+.second-banner .details > h1{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.second-banner .details > p{
+    margin-bottom: 20px;
+}
+.second-banner .details .part{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.banner_2 > button{
+    background-color: #FF900E;
+    border: 0;
+    padding: 30px 20px;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    top: -70px;
+    left: 530px;
+} 
