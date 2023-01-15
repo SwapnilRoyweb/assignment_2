@@ -253,6 +253,9 @@ footer{
 
 /* Mobile */
 @media screen and (max-width:576px){
+    header{
+        width: 100%;
+    }
     .navbar nav{
         flex-direction: column;
         align-items: center;
@@ -308,6 +311,5 @@ footer{
     }
     footer{
         width: 100%;
-        margin: 0;
     }
 }
