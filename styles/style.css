@@ -300,6 +300,9 @@ footer{
         flex-direction: column;
         align-items: center;
     }
+    .extra{
+        width: 100%;
+    }
     .extra .skills{
         flex-direction: column;
         align-items: center;
